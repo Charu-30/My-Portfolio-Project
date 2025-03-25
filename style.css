@@ -53,7 +53,7 @@ body{
     border-bottom: 3px solid transparent;
 }
 
-.navbar a:hover, .navbar a.active{
+.navbar a:hover, .navbar a:active{
     color: greenyellow;
 }
 
@@ -252,18 +252,23 @@ section{
     color: black;
 }
 .html {
-    width: 90%;
+    width: 95%;
     animation: html 3s;
 }
 
 .css{
-    width: 70%;
+    width: 90%;
     animation: css 3s;
 }
 
 .javascript{
-    width: 45%;
+    width: 85%;
     animation: javascript 3s;
+}
+
+.mern{
+    width: 85%;
+    animation: mern 3s;
 }
 
 .sql{
@@ -271,13 +276,8 @@ section{
     animation: sql 3s;
 }
 
-.c{
-    width: 60%;
-    animation: c 3s;
-}
-
 .data-structures{
-    width: 40%;
+    width: 70%;
     animation: data-structures 3s;
 }
 
@@ -287,7 +287,7 @@ section{
     }
 
     100%{
-        width: 90%;
+        width: 95%;
 
     }
 }
@@ -298,7 +298,7 @@ section{
     }
 
     100%{
-        width: 70%;
+        width: 90%;
 
     }
 }
@@ -309,7 +309,18 @@ section{
     }
 
     100%{
-        width: 45%;
+        width: 85%;
+
+    }
+}
+
+@keyframes mern{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 85%;
 
     }
 }
@@ -325,23 +336,12 @@ section{
     }
 }
 
-@keyframes c{
-    0%{
-        width: 0%;
-    }
-
-    100%{
-        width: 60%;
-
-    }
-}
-
 @keyframes data-structures{
     0%{
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 70%;
     }
 }
 
